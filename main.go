@@ -50,7 +50,6 @@ func createFriends(w http.ResponseWriter, r *http.Request) {
 
 func updateFriends(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-
 }
 
 func deleteFriends(w http.ResponseWriter, r *http.Request) {
